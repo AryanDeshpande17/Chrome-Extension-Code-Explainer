@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "AI Code Explainer",
+  "version": "1.1",
+  "description": "Select any code snippet on a webpage, click the icon, and get an AI-powered explanation.",
+  "permissions": [],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}

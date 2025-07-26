@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyC_5j_K8zZ8ueGpCIjcIxWSHjQRpidSX-4";
+const API_KEY = "PUT_KEY_HERE";
 
 
 import { GoogleGenAI } from 'https://esm.sh/@google/genai@^1.11.0';
